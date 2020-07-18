@@ -3,17 +3,25 @@
 I am Tapan Manu,
 
 ### Who am I?
+
 Honour Student in TKMCE
+
 Android Developer with some ML Practices.
 
 ### Where am I?
+
 God's own Country - Kerala,India
 
 ### My Hobbies
+
 Programming
+
 Learning
+
 Cinephile
+
 Artist
+
 Story Writing
 
 
