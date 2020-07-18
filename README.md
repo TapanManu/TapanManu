@@ -4,7 +4,7 @@ I am Tapan Manu,
 
 ### Who am I?
 
-Honour Student in TKMCE
+Student in TKMCE
 
 Android Developer with some ML Practices.
 
