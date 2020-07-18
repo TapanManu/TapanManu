@@ -1,5 +1,24 @@
 ### Hi there 👋
 
+I am Tapan Manu,
+
+### Who am I?
+Honour Student in TKMCE
+Android Developer with some ML Practices.
+
+### Where am I?
+God's own Country - Kerala,India
+
+### My Hobbies
+Programming
+Learning
+Cinephile
+Artist
+Story Writing
+
+
+
+
 <!--
 **TapanManu/TapanManu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
