@@ -1,31 +1,14 @@
 ### Hi there 👋
 
-I am Tapan Manu,
+  <font family = "Sans Serif">
+    I am Tapan Manu,
+</font>
 
 ### Who am I?
 
 Student in TKMCE
 
 Android Developer with some ML Practices.
-
-### Where am I?
-
-God's own Country - Kerala,India
-
-### My Hobbies
-
-Programming
-
-Learning
-
-Cinephile
-
-Artist
-
-Story Writing
-
-
-
 
 <!--
 **TapanManu/TapanManu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
