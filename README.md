@@ -1,14 +1,13 @@
 ### Hi there 👋
 
-  <font family = "Sans Serif">
-    I am Tapan Manu,
-</font>
-
+<font family = "Arial">I am Tapan Manu :smiley:
+<hr/>
+  
 ### Who am I?
 
 Student in TKMCE
 
-Android Developer with some ML Practices.
+Android Developer with some ML Practices. :heartbeat:
 
 <!--
 **TapanManu/TapanManu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
