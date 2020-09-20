@@ -1,4 +1,3 @@
-<body background="blue">
 ### Hi there 👋
 
 <font family = "Arial">I am Tapan Manu :smiley:
