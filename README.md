@@ -1,3 +1,4 @@
+<body background="blue">
 ### Hi there 👋
 
 <font family = "Arial">I am Tapan Manu :smiley:
@@ -12,7 +13,7 @@ Android Developer with some ML Practices. :heartbeat:
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=TapanManu)
 
-![counter](https://[YourEndpoint].m.pipedream.net)
+
 
 <!--
 **TapanManu/TapanManu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
