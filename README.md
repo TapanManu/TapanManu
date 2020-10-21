@@ -19,6 +19,7 @@ Android Developer with some ML Practices. :heartbeat:
 
  ---
 
+![](https://komarev.com/ghpvc/?username=TapanManu&color=#e39d9d&style=flat-square)
 
 
 <!--
