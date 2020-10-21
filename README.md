@@ -1,6 +1,6 @@
-### Hi there 👋
+### Hi there <img src="https://github.com/ABSphreak/ABSphreak/blob/master/gifs/Hi.gif" width="35px">
+## :octocat: I am Tapan Manu
 
-<font family = "Arial">I am Tapan Manu :smiley:
 <hr/>
   
 ### Who am I?
