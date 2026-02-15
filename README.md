@@ -5,7 +5,10 @@
   
 ### Who am I?
 
-Student in TKMCE
+Senior Software Engineer [Sedai](https://github.com/SedaiEngineering) 🐙
+Working in Kubernetes Domain
+
+Contributing Kubernetes
 
 Android Developer with some ML Practices. :heartbeat:
 
