@@ -1,0 +1,57 @@
+# Generates the stat images shown in README.md and commits them to this repo.
+#
+# Why this exists: the README used to embed images from
+# github-readme-stats.vercel.app and github-profile-trophy.vercel.app. Both
+# public instances are now down (503 DEPLOYMENT_PAUSED and 402
+# DEPLOYMENT_DISABLED), so the cards stopped rendering. Generating the images
+# here means github.com serves them from this repository and no third-party
+# app can pause them.
+#
+# Setup: add a personal access token as the repository secret METRICS_TOKEN
+# (Settings -> Secrets and variables -> Actions). Read-only scopes are enough:
+# public_repo and read:user; add repo and read:org only if you want private
+# contributions and organisation activity counted. Without the secret the
+# workflow falls back to the built-in token, which produces a thinner card.
+
+name: Profile stats
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"      # twice a day
+  workflow_dispatch:            # and on demand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Overview, activity and contribution calendar
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
+          committer_token: ${{ github.token }}
+          filename: github-metrics.svg
+          user: TapanManu
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: Asia/Kolkata
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_lines: yes
+
+      - name: Language breakdown
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
+          committer_token: ${{ github.token }}
+          filename: github-metrics-languages.svg
+          user: TapanManu
+          template: classic
+          base: ""
+          config_timezone: Asia/Kolkata
+          plugin_languages: yes
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
